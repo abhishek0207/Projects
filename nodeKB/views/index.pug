@@ -1,0 +1,9 @@
+extends layout
+block content
+	h1 Articles
+	h2 #{title}
+	ul.list-group
+		each arts, i in articleList
+			li.list-group-item
+				a(href="/article/" + arts.id )
+					=arts.title
