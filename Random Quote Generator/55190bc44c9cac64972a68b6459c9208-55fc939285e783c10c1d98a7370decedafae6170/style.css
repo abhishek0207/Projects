@@ -1,0 +1,15 @@
+body {
+  background-color:#74ebd5
+}
+#quote {
+  margin-top:100px;
+  border:1px solid white;
+  display:inline-block;
+  padding:10px;
+  background-color:white;
+}
+
+.btn {
+  background-color:#74ebd5 !important;
+  color:white;
+}
